@@ -1,0 +1,104 @@
+html, body {
+  background-color: rgb(0, 64, 128);
+  color: white;
+  height: 100%; width: 100%;
+  margin: 0; padding: 0;
+} 
+
+#jumbotron {
+  min-height: 100vh;
+  position: relative;
+}
+
+#jumbotron::before {
+  background-image: url(../img/jumbotron-blur.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  content: "";
+  filter: sepia(20%);
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; min-height: 100%;
+} 
+
+#jumbotron-container {
+  position: relative;
+}
+
+#about {
+}
+
+.spacer {
+  min-height: 50vh;
+  position: relative;
+}
+
+#spacer1::before {
+  background-image: url(../img/img3-blur.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  content: "";
+  filter: sepia(20%);
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; min-height: 100%;
+} 
+
+#help {
+  background-color: rgb(128, 0, 0);
+  min-height: 40vh;
+}
+
+#spacer2::before {
+  background-image: url(../img/img2-blur.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  content: "";
+  filter: sepia(20%);
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; min-height: 100%;
+} 
+
+#bio {
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+#spacer3::before {
+  background-image: url(../img/img2-blur.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  content: "";
+  filter: sepia(20%);
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; min-height: 100%;
+} 
+
+#news {
+  background-color: rgb(128, 0, 0);  
+}
+
+#spacer4::before {
+  background-image: url(../img/jumbotron-blur.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  content: "";
+  filter: sepia(20%);
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; min-height: 100%;
+} 
